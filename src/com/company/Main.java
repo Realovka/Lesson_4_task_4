@@ -12,14 +12,14 @@ public class Main {
             array[i] = random.nextInt(20);
         }
 
-        System.out.print(Arrays.toString(array));
+        System.out.println(Arrays.toString(array));
 
         for (int i = 0; i < array.length; i++) {
             if (i % 2 != 0) {
                 array[i] = 0;
             }
         }
-        System.out.println();
-        System.out.print(Arrays.toString(array));
+       
+        System.out.println(Arrays.toString(array));
     }
 }
